@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "n": "n",
+    "server1": "node --env-file=.server1.env server.js",
+    "server2": "node --env-file=.server2.env server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "n": "^9.2.3"
+  }
+}
